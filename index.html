@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind & Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Manrope Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'primary-color': '#FF4240',
+              }
+            }
+          }
+        }
+      </script>
+
+
+</head>
+<body class="font-manrope">
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 max-w-6xl mx-auto px-10 my-4 ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl text-[#131318] text-4xl font-extrabold">Hockey <span class="text-[#FF4240]">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-base font-bold mr-11">
+                    <li><a class="text-[#FF4240]">Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end flex gap-5">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <a class="btn bg-[#FF4240] px-6 py-2 text-center text-white font-bold text-xl ">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <div class="max-w-6xl mx-auto px-10 relative">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full bg-[url(./Images/1.png)] h-[80vh] bg-no-repeat bg-contain "> 
+                  
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+            </div>
+            <div class="bg-[#131318] p-8 rounded-2xl w-1/2 absolute bottom-9 right-16  " >
+                <h1 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h1>
+                <p class="text-white text-base font-medium pt-4 w">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="my-24">
+            <div class="max-w-6xl mx-auto px-10 text-center space-y-5">
+                <h1 class="text-[#131318] text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p class="text-[#9ca3af] text-base font-medium w-2/3 mx-auto ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+           <div class="grid grid-cols-1 lg:grid-cols-4 mt-14 px-8 max-w-screen-lg mx-auto gap-8">
+            <div class="relative" >
+                <h6 class="absolute top-10 left-24 ">87%</h6>
+                <img class="w-2/4 mx-auto text-3xl font-extrabold" src="Images/Group 9.svg" alt="">
+                <h4 class="py-4 text-center text-xl font-semibold">Prayer Facility</h4>
+                <p class="text-[] text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing </p>
+            </div>
+            <div class="relative" >
+                <h6 class="absolute top-10 left-24">95%</h6>
+                <img class="w-2/4 mx-auto text-3xl font-extrabold" src="Images/Group 9(1).svg" alt="">
+                <h4 class="py-4 text-center text-xl font-semibold">Experienced Coach</h4>
+                <p class="text-[] text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing </p>
+            </div>
+            <div class="relative" >
+                <h6 class="absolute top-10 left-24">90%</h6>
+                <img class="w-2/4 mx-auto text-3xl font-extrabold" src="Images/Group 9(2).svg" alt="">
+                <h4 class="py-4 text-center text-xl font-semibold">Senior Player</h4>
+                <p class="text-[] text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing </p>
+            </div>
+            <div class="relative" >
+                <h6 class="absolute top-10 left-24">80%</h6>
+                <img class="w-2/4 mx-auto text-3xl font-extrabold" src="Images/Group 9(3).svg" alt="">
+                <h4 class="py-4 text-center text-xl font-semibold">Training Ground</h4>
+                <p class="text-[] text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing </p>
+            </div>
+           </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
