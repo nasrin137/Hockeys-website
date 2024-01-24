@@ -36,7 +36,7 @@
 <body class="font-manrope">
     <header>
         <nav>
-            <div class="navbar bg-base-100 max-w-6xl mx-auto px-10 my-4 ">
+            <div class="navbar bg-base-100 max-w-6xl mx-auto px-5 lg:px-10 my-4 ">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -50,7 +50,7 @@
                       <li><a>Contact</a></li>
                     </ul>
                   </div>
-                  <a class="text-[#131318] text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</a>
+                  <a class="text-[#131318] text-xl lg:text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-base font-bold mr-11">
@@ -62,32 +62,32 @@
                   </ul>
                 </div>
                 <div class="navbar-end flex gap-5">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                  <a class="btn bg-[#FF4240] px-6 py-2 text-center text-white font-bold text-xl ">Get Ticket</a>
+                  <i class="fa-solid fa-magnifying-glass hidden"></i>
+                  <a class="btn bg-[#FF4240] px-2 lg:px-6 py-0 lg:py-2 text-center text-white font-bold text-sm lg:text-xl ">Get Ticket</a>
                 </div>
               </div>
         </nav>
         <div class="max-w-6xl mx-auto px-10 relative">
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full bg-[url(./Images/1.png)] h-[80vh] bg-no-repeat bg-contain "> 
+            <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative w-full bg-[url(./Images/1.png)] h-[200px] lg:h-[80vh] bg-no-repeat bg-contain "> 
                   
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <div class="absolute flex justify-center lg:justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a> 
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
             </div>
-            <div class="bg-[#131318] p-8 rounded-2xl w-1/2  lg:absolute bottom-9 right-16  " >
-                <h1 class="text-white text-2xl font-extrabold">Meet all the heroes from the field</h1>
-                <p class="text-white text-base font-medium pt-4 w">We are a club that runs hockey program from age of 4 and above. Based in Kuala Lumpur, Malaysia </p>
+            <div class="bg-[#131318] p-3 lg:p-8 rounded-2xl w-full h-[20vh] lg:w-1/2  lg:absolute bottom-9 right-16  " >
+                <h1 class="text-white text-xs lg:text-2xl font-extrabold">Meet all the heroes from the field</h1>
+                <p class="text-white text-xs lg:text-base font-medium pt-1 lg:pt-4 w">We are a club that runs hockey program from age of 4 and above. Based in Kuala Lumpur, Malaysia </p>
             </div>
         </div>
     </header>
     <main>
         <section class="my-24">
             <div class="max-w-6xl mx-auto px-10 text-center space-y-5">
-                <h1 class="text-[#131318] text-4xl font-extrabold">Professional Hockeys Club</h1>
-                <p class="text-[#9ca3af] text-base font-medium w-2/3 mx-auto ">Our programs include both field and indoor hockey with field training held at  Gombak hockey pitch. However, we also travel to other pitches around Kuala Lumpur for training.</p>
+                <h1 class="text-[#131318] text-sm lg:text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p class="text-[#9ca3af] text-sm lg:text-base font-medium w-full lg:w-2/3 mx-auto ">Our programs include both field and indoor hockey with field training held at  Gombak hockey pitch. However, we also travel to other pitches around Kuala Lumpur for training.</p>
             </div>
            <div class="grid grid-cols-1 lg:grid-cols-4 mt-14 px-8 max-w-screen-lg mx-auto gap-8">
             <div class="relative" >
@@ -119,62 +119,65 @@
         <!-- Program Section -->
         <section>
             <div class="max-w-6xl mx-auto px-10 text-center space-y-5">
-                <h4 class="text-[#131318] text-4xl font-extrabold">Program Sections</h4>
-                <p class="text-[] text-base font-medium">We run age-group hockey development programs (4 years old – 18 years old) and also social and league hockey for adults and seniors as well. </p>
+                <h4 class="text-[#131318] text-xl lg:text-4xl font-extrabold">Program Sections</h4>
+                <p class="text-[] text-sm lg:text-base font-medium">We run age-group hockey development programs (4 years old – 18 years old) and also social and league hockey for adults and seniors as well. </p>
             </div>
             <div class="grid gap-5 grid-cols-1 lg:grid-cols-2 max-w-6xl mx-auto px-12 text-center my-8 ">
-                <div class="relative">
-                    <img class="bg-slate-700 rounded-2xl" src="Images/2.png" alt="">
-                    <div class="absolute top-16 left-7 space-y-3">
-                        <h2 class="text-white text-2xl font-extrabold text-left">Junior Program</h2>
-                        <p class="text-white text-base font-medium text-left">Introducing our Future Leafs Program, designed specifically for young players aged 4 to 8 who are eager to learn the fundamentals of hockey in a fun and engaging way. </p>
-                        <a class="btn bg-[#FF4240] px-6 py-2 text-center text-white font-bold text-xl absolute left-0 border-0  ">Register Now!</a>
-
-                    </div>
-                </div>
-                <div class="relative">
-                    <img class="bg-[#13131880] rounded-2xl" src="Images/3.png" alt="">
-                    <div class="absolute top-16 left-7 space-y-3">
-                        <h2 class="text-white text-2xl font-extrabold text-left">Teenager Program</h2>
-                        <p class="text-white text-base font-medium text-left">During the fall season, our teams participate in various leagues to provide a challenging and rewarding experience for our players.It encourages teen agers to give their full effort.</p>
-                        <a class="btn bg-[#FF4240] px-6 py-2 text-center text-white font-bold text-xl absolute left-0 border-0">Register Now!</a>
-
-                    </div>
-                </div>
-                <div class="relative  grid col-span-2   ">
-                    <img class="bg-[#13131880] rounded-2xl" src="Images/4.png" alt="">
-                    <div class="absolute top-40 left-20 space-y-3">
-                        <h2 class="text-white text-2xl font-extrabold text-left">Professional Program</h2>
-                        <p class="text-white text-base font-medium text-left">Our program is led by a dedicated group of experienced and certified coaches who are passionate about developing players both on and off the ice. They emphasize skill development, teamwork, sportsmanship, and the values of hard work and dedication.</p>
-                        <a class="btn bg-[#FF4240] px-6 py-2 text-center text-white font-bold text-xl absolute left-0 border-0 ">Register Now!</a>
-    
-                    </div>
-            </div>
-          
-            </div>
+            
+                <div class="card w-full bg-base-100 shadow-xl image-full">
+                            <figure><img src="Images/2.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                              <h2 class="card-title text-white text-2xl font-extrabold text-left mt-10">Junior Program</h2>
+                              <p class="text-white text-base font-medium text-left">Introducing our Future Leafs Program, designed specifically for young players aged 4 to 8 who are eager to learn the fundamentals of hockey in a fun and engaging way. </p>
+                              <div class="card-actions justify-end">
+                                <a class="btn bg-[#FF4240] px-6 py-2 text-center text-white font-bold text-xl absolute left-8 bottom-10 border-0 ">Register Now!</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card w-full bg-base-100 shadow-xl image-full">
+                            <figure><img src="Images/3.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                              <h2 class="card-title text-white text-2xl font-extrabold text-left mt-10">Teenager Program</h2>
+                              <p class="text-white text-base font-medium text-left">During the fall season, our teams participate in various leagues to provide a challenging and rewarding experience for our players.It encourages teen agers to give their full effort.</p>
+                              <div class="card-actions justify-end">
+                                <a class="btn bg-[#FF4240] px-6 py-2 text-center text-white font-bold text-xl absolute left-8 bottom-10 border-0 ">Register Now!</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card w-full bg-base-100 shadow-xl image-full lg:col-span-2">
+                            <figure><img src="Images/4.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                              <h2 class="card-title text-white text-2xl font-extrabold text-left mt-36">Professional Program</h2>
+                              <p class="text-white text-base font-medium text-left">Our program is led by a dedicated group of experienced and certified coaches who are passionate about developing players both on and off the ice. They emphasize skill development, teamwork, sportsmanship, and the values of hard work and dedication.</p>
+                              <div class="card-actions justify-end">
+                                <a class="btn bg-[#FF4240] px-6 py-2 text-center text-white font-bold text-xl absolute left-8 bottom-10 border-0 ">Register Now!</a>
+                              </div>
+                            </div>
+                          </div>
+         </div>
         </section>
         <!-- Products Section -->
         <section>
             <div class="max-w-6xl mx-auto px-12 py-8 text-center ">
-                <h1 class="text-[#131318] text-4xl font-extrabold">Our New Products</h1>
-                <p class="text-[] text-base font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <h1 class="text-[#131318] text-sm lg:text-4xl font-extrabold">Our New Products</h1>
+                <p class="text-[] text-sm lg:text-base font-medium mt-5">Hockey's is a dynamic organization that strives to deliver quality training equipment and aids with an unparalleled world-class customer experience. </p>
             </div>
             <div class="max-w-6xl mx-auto px-12 grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-3 gap-2">
-                <div class="flex gap-2 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5 ">
+                <div class="flex flex-col lg:flex-row gap-3 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5 ">
                     <div class="rounded-xl">
                         <img src="Images/5.png" alt="">
                     </div>
                    
-                    <div class="space-y-2">
+                    <div class="space-y-1">
                         <div class="">
                             <a class="ml-2" href=""><i class="fa-solid fa-star mr-2 text-[#F99808]"></i>5.0</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-eye mr-2"></i>20</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-heart mr-2"></i>200</a>
                         </div>
-                        <h1 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h1>
-                        <p class="text-[] text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h1 class="text-[#131318] text-xl font-extrabold">Jacket</h1>
+                        <p class="text-[] text-base font-medium">Soft and beautiful tone colors, uniques touch and warmth, prep for winter</p>
                         <div class="flex justify-between">
-                            <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h4>
+                            <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $28.00</h4>
                             <a class="text-[] text-base font-medium " href=""><i class="fa-solid fa-cart-shopping mr-2 "></i>Delivery Fee : Free</a>
                         </div>
                     </div>
@@ -183,20 +186,20 @@
 
 
                 </div>
-                <div class="flex gap-2 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
+                <div class="flex gap-3 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
                     <div class="rounded-xl">
                         <img src="Images/6.png" alt="">
                     </div>
                    <div>
-                    <div class="space-y-2">
+                    <div class="space-y-1">
                         <div>
                             <a class="ml-2" href=""><i class="fa-solid fa-star mr-2 text-[#F99808]"></i>5.0</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-eye mr-2"></i>20</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-heart mr-2"></i>200</a>
 
                         </div>
-                        <h1 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h1>
-                        <p class="text-[] text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h1 class="text-[#131318] text-xl font-extrabold">Cap</h1>
+                        <p class="text-[] text-base font-medium">Soft and beautiful tone colors, uniques touch and warmth, prep for winter </p>
                         <div class="flex justify-between">
                             <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h4>
                             <a href=""><i class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</a>
@@ -207,21 +210,21 @@
 
 
                 </div>
-                <div class="flex gap-2 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
+                <div class="flex gap-3 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
                     <div class="rounded-xl">
                         <img src="Images/7.png" alt="">
                     </div>
                    <div>
-                    <div class="space-y-2">
+                    <div class="space-y-1">
                         <div>
                             <a class="ml-2" href=""><i class="fa-solid fa-star mr-2 text-[#F99808]"></i>5.0</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-eye mr-2"></i>20</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-heart mr-2"></i>200</a>
                         </div>
-                        <h1 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h1>
-                        <p class="text-[] text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h1 class="text-[#131318] text-xl font-extrabold">Cap</h1>
+                        <p class="text-[] text-base font-medium">Soft and beautiful tone colors, uniques touch and warmth, prep for winter</p>
                         <div class="flex justify-between">
-                            <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h4>
+                            <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $25.00</h4>
                             <a href=""><i class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</a>
                         </div>
                     </div>
@@ -230,21 +233,21 @@
 
 
                 </div>
-                <div class="flex gap-2 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
-                    <div class="rounded-xl">
+                <div class="flex gap-3 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
+                    <div class="rounded-xl ">
                         <img src="Images/8.png" alt="">
                     </div>
                    <div>
-                    <div class="space-y-2">
+                    <div class="space-y-1">
                         <div>
                             <a class="ml-2" href=""><i class="fa-solid fa-star mr-2 text-[#F99808]"></i>5.0</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-eye mr-2"></i>20</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-heart mr-2"></i>200</a>
                         </div>
-                        <h1 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h1>
-                        <p class="text-[] text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h1 class="text-[#131318] text-xl font-extrabold">T-Shirt</h1>
+                        <p class="text-[] text-base font-medium">Soft and beautiful tone colors, uniques touch and warmth, prep for winter</p>
                         <div class="flex justify-between">
-                            <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h4>
+                            <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $18.00</h4>
                             <a href=""><i class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</a>
                         </div>
                     </div>
@@ -253,21 +256,21 @@
 
 
                 </div>
-                <div class="flex gap-2 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
+                <div class="flex gap-3 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
                     <div class="rounded-xl">
                         <img src="Images/9.png" alt="">
                     </div>
                    <div>
-                    <div class="space-y-2">
+                    <div class="space-y-1">
                         <div>
                             <a class="ml-2" href=""><i class="fa-solid fa-star mr-2 text-[#F99808]"></i>5.0</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-eye mr-2"></i>20</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-heart mr-2"></i>200</a>
                         </div>
-                        <h1 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h1>
-                        <p class="text-[] text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h1 class="text-[#131318] text-xl font-extrabold">Helmate</h1>
+                        <p class="text-[] text-base font-medium">Soft and beautiful tone colors, uniques touch and warmth, prep for winter</p>
                         <div class="flex justify-between">
-                            <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h4>
+                            <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $32.00</h4>
                             <a href=""><i class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</a>
                         </div>
                     </div>
@@ -276,19 +279,19 @@
 
 
                 </div>
-                <div class="flex gap-2 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
-                    <div class="rounded-xl">
+                <div class="flex gap-3 justify-between items-center border-2 border-red-400 border-solid rounded-2xl p-5">
+                    <div class="rounded-xl ">
                         <img src="Images/10.png" alt="">
                     </div>
                    <div>
-                    <div class="space-y-2">
+                    <div class="space-y-1">
                         <div>
                             <a class="ml-2" href=""><i class="fa-solid fa-star mr-2 text-[#F99808]"></i>5.0</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-eye mr-2"></i>20</a>
                             <a class="ml-2" href=""><i class="fa-regular fa-heart mr-2"></i>200</a>
                         </div>
-                        <h1 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h1>
-                        <p class="text-[] text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <h1 class="text-[#131318] text-xl font-extrabold">Football</h1>
+                        <p class="text-[] text-base font-medium">Soft and beautiful tone colors, uniques touch and warmth, prep for winter</p>
                         <div class="flex justify-between">
                             <h4 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h4>
                             <a href=""><i class="fa-solid fa-cart-shopping mr-2"></i>Delivery Fee : Free</a>
@@ -306,11 +309,11 @@
         <section>
             <div class="max-w-6xl mx-auto px-12 py-8 text-center ">
                 <h1 class="text-[#131318] text-4xl font-extrabold">Clients Question</h1>
-                <p class="text-[] text-base font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-[] text-base font-medium mt-5">Here is the collections of various questions asked by different clients. </p>
             </div>
             <div class="max-w-6xl mx-auto px-12 py-8 hero  ">
                 <div class="hero-content gap-9 flex-col lg:flex-row border-2 border-solid border-[#1313181a] rounded-xl">
-                  <img src="Images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
+                  <img src="Images/11.png" class="max-w-sm rounded-lg shadow-2xl w-2/3" />
                   <div>
                     <div class="collapse collapse-plus ">
                         <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -318,7 +321,7 @@
                             Our Equipment
                         </div>
                         <div class="collapse-content text-base font-normal"> 
-                          <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                          <p>We have numerous types of quality products which you can purchase in reasonable price.</p>
                         </div>
                       </div>
                       <hr>
@@ -384,7 +387,7 @@
         <section>
             <div class="max-w-6xl mx-auto px-12 py-8 text-center ">
                 <h1 class="text-[#131318] text-4xl font-extrabold">Get In Touch</h1>
-                <p class="text-[] text-base font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-[] text-base font-medium mt-5">You can reach us whenever you want via sending mail or over the phone. </p>
             </div>
             <div class="max-w-6xl mx-auto px-12 my-8 grid grid-cols-1 lg:grid-cols-3 gap-5">
                 <div class="border-2 border-solid border-[#1313181a] rounded-2xl p-5">
@@ -449,6 +452,7 @@
                 </div>
              </div>
         </section>
+       
     </main>
     <!-- Footer Section -->
     <footer class="footer p-10 bg-base-200 text-base-content bg-[#131318]">
